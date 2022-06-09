@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <p id="hex"></p>
+    <div id="ColorC">
+        <h3>Shape 1 Color</h3>
+        <input id="s1" type="color" value="#ff0000" />
+        <h3>Shape 2 Color</h3>
+        <input id="s2" type="color" value="#0000ff" />
+    </div>
+    <div id="myDiv">
+        <h3>Number of points</h3>
+        <select id="numpoints" onchange="changepoints()">
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5</option>
+            <option value=6>6</option>
+            <option value=7>7</option>
+            <option value=8>8</option>
+            <option value=9>9</option>
+            <option value=10>10</option>
+            <option value=11>11</option>
+            <option value=12>12</option>
+            <option value=13>13</option>
+            <option value=14>14</option>
+            <option value=15>15</option>
+        </select>
+
+    </div>
+    <canvas width='800' height='600' id="myCanvas"> </canvas>
+
+    <script src="myCanvas.js"></script>
+</body>
+
+
+</html>
